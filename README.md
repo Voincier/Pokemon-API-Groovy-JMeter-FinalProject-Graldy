@@ -16,7 +16,7 @@
 
 ## How it works
 
-# Find Raichu
+### Find Raichu
 
 1. While Controller will loop HTTP Request and the JSR223 PostProcessor to 'pokeapi.co/api/v2/pokemon-species' while parameter 'searchPokemon' is not true.
 2. Code in JSR223, will try to find a pokemon named 'pikachu' in 'results' from the JSON Response. If it does not find 'pikachu', it will increase 'offset' by 1 which would increase the number pokemon json that would be taken from 'pokeapi.co'.
@@ -24,7 +24,7 @@
 4. The code inside If Controller will check the evolution chain of 'pikachu' and will try to search 'raichu'.
 5. If 'raichu' is found, it will print "Raichu is found".
 
-# Find Wing typed Pokemon
+### Find Wing typed Pokemon
 
 1. HTTP Request to 'pokeapi.co/api/v2/pokemon-shape' to search 'wings' in the JSON Response.
 2. Then the code will collect the Pokemons with 'wings' description as 'wingedPokemon' and then print the list as output.
