@@ -28,3 +28,13 @@
 
 1. HTTP Request to 'pokeapi.co/api/v2/pokemon-shape' to search 'wings' in the JSON Response.
 2. Then the code will collect the Pokemons with 'wings' description as 'wingedPokemon' and then print the list as output.
+
+### Shortcut to other project
+
+Assignment 1 : https://github.com/Voincier/Assignment-1C-Basic
+
+Assignment 2 : https://github.com/Voincier/Assignment-2-Database
+
+Assignment 4 : https://github.com/Voincier/Assignment-4-GroovyBasic
+
+Final Project 1 : https://github.com/Voincier/FinalProject_1
